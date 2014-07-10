@@ -46,6 +46,3 @@ gem "rails-erd", group: :development
 
 # Use a Sass-powered version of Bootstrap
 gem 'bootstrap-sass', '~> 3.2.0'
-
-# Use with Bootstrap to add browser vendor prefixes automatically
-gem 'autoprefixer-rails'

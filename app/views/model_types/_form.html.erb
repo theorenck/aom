@@ -1,0 +1,13 @@
+<%= form_for(@model_type) do |f| %>
+  <% if @model_type.errors.any? %>
+    <div class="alert alert-danger">
+      <strong>Warning!/strong> Correctly fufill any red highlighted fields.
+    </div>
+  <% end %>
+
+   <%= f.text_field :name %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
