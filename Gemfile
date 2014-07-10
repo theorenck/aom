@@ -40,3 +40,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 # 12factor configuration compliance
 gem 'rails_12factor', group: :production
+
+# tooling used for generate ER diagrams
+gem "rails-erd", group: :development
